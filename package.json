@@ -1,0 +1,19 @@
+{
+  "name": "solidity-course-second",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ganache-core": "^2.13.2",
+    "mocha": "^9.1.3",
+    "solc": "^0.8.9",
+    "web3": "^1.6.0"
+  }
+}
