@@ -29,6 +29,16 @@ export const ABI = [
     },
     {
         inputs: [],
+        name: 'lastWinner',
+        outputs: [[Object]],
+        stateMutability: 'view',
+        type: 'function',
+        constant: true,
+        payable: undefined,
+        signature: '0xfe188184'
+    },
+    {
+        inputs: [],
         name: 'manager',
         outputs: [[Object]],
         stateMutability: 'view',
@@ -57,4 +67,4 @@ export const ABI = [
         payable: undefined,
         signature: '0xf71d96cb'
     }
-]
+];
